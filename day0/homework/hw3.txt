@@ -1,0 +1,59 @@
+ გამოიკვლიეთ მასივში მაქსიმუმის მოძებნის ამოცანა 5 ელემენტის შემთხვევაში (ვარიანტისთვის [4]3გვ:21ეგვ): დაწერეთ
+ფსევდოკოდი, ბლოკ-სქემა, ანალიზი.
+
+
+
+
+a, b, c, d, e
+
+if a > b then
+    if a > c then
+        if a > d then
+            if a > e then
+                return a
+    else 
+        if c > d then 
+            if c > e then 
+                return c 
+            else 
+                return e
+        else
+            if d > e then 
+                return d 
+            else
+                return e
+else
+    if b > c then
+        if b > d then
+            if b > e then 
+                return b 
+            else 
+                return e
+        else
+            if d > e then
+                return d
+            else 
+                return e
+    else
+        if c > d then
+            if c > e then
+        else 
+            if d > e then
+                return d 
+            else 
+                return e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
